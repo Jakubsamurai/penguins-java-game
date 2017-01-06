@@ -191,7 +191,7 @@ public class JuegoPinguinos {
         	}
         }
         else if (resp.equals("S")) {
-        	if(jugadorA.getCoordenadaX() < 8) {
+        	if(jugadorA.getCoordenadaX() < 7) {
         		int n = jugadorA.getCoordenadaX() + 1;
 	        	jugadorA.setCoordenadaX(n);  
         	}
@@ -228,7 +228,7 @@ public class JuegoPinguinos {
         	}
         }
         else if (resp1.equals("S")) {
-        	if(jugadorB.getCoordenadaX() < 8) {
+        	if(jugadorB.getCoordenadaX() < 7) {
         		int n = jugadorB.getCoordenadaX() + 1;
 	        	jugadorB.setCoordenadaX(n);  
         	}
